@@ -10,9 +10,8 @@
 *.dll
 *.dylib
 
-build/
+build
 debug/
-saves/
 
 # Qt-esdebug/
 saves/
