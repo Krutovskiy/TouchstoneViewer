@@ -1,6 +1,8 @@
 # TouchstoneViewer
 Приложение на C++ с использованием библиотеки Qt, которое будет иметь возможность загружать файл с измерением (Touchstone) и визуализировать его данные на графиках.  
 
+![Screenshot](https://github.com/Krutovskiy/TouchstoneViewer/img/screenshot.png)
+
 ## Сборка 
 
 ```bash
