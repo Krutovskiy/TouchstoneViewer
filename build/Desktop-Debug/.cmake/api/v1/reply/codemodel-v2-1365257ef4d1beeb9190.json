@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-95dfdefab33131bc5c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TouchstoneViewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e3e69e2958cee7560eaf.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-c76c92ff028b468348ec.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-9e4dfeb3bfcf3dbab150.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer-Debug-7fd106eefffd660a3294.json",
+					"name" : "appTouchstoneViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_autogen-Debug-17dfa64dabfcd1d42ab5.json",
+					"name" : "appTouchstoneViewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_autogen_timestamp_deps-Debug-addf74e8b45ad7046297.json",
+					"name" : "appTouchstoneViewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_automoc_json_extraction-Debug-ac10786ef5553d75ebda.json",
+					"name" : "appTouchstoneViewer_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_other_files-Debug-e6d0967c6af7dba5654b.json",
+					"name" : "appTouchstoneViewer_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_qmlimportscan-Debug-fa58fb2e2c482f57bf6b.json",
+					"name" : "appTouchstoneViewer_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_qmllint-Debug-88107dfe49d0f88377e8.json",
+					"name" : "appTouchstoneViewer_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_qmllint_json-Debug-7decac84577f772431c0.json",
+					"name" : "appTouchstoneViewer_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_qmltyperegistration-Debug-10cbac6d0c2116945a71.json",
+					"name" : "appTouchstoneViewer_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTouchstoneViewer_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTouchstoneViewer_tooling-Debug-359fa567c02c19de890c.json",
+					"name" : "appTouchstoneViewer_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug",
+		"source" : "/home/leon/Projects/TouchstoneViewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

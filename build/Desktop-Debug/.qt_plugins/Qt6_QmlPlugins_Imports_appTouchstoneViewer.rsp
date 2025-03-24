@@ -1,0 +1,14 @@
+-rootPath
+/home/leon/Projects/TouchstoneViewer
+-cmake-output
+-output-file
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake
+-importPath
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer
+-importPath
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp"
+  ".rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp"
+  ".rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp"
+  ".rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp"
+  ".rcc/qrc_qmake_TouchstoneViewer.cpp"
+  "CMakeFiles/appTouchstoneViewer_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appTouchstoneViewer_autogen.dir/ParseCache.txt"
+  "appTouchstoneViewer_autogen"
+  "CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o.d"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o"
+  "CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o.d"
+  "TouchstoneViewer/appTouchstoneViewer.qmltypes"
+  "appTouchstoneViewer"
+  "appTouchstoneViewer.pdb"
+  "appTouchstoneViewer_autogen/mocs_compilation.cpp"
+  "appTouchstoneViewer_autogen/timestamp"
+  "apptouchstoneviewer_qmltyperegistrations.cpp"
+  "meta_types/qt6apptouchstoneviewer_debug_metatypes.json"
+  "meta_types/qt6apptouchstoneviewer_debug_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appTouchstoneViewer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
