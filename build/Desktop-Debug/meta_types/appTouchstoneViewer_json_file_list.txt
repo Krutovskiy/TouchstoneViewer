@@ -1,2 +1,0 @@
-/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/appTouchstoneViewer_autogen/include/../ISMKEKEPX5/moc_TouchstoneFile.cpp.json
-/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/appTouchstoneViewer_autogen/include/../YPKJ5OE7LN/moc_controller.cpp.json

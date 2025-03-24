@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/TouchstoneViewer">
-    <file alias="qmldir">/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/qmldir</file>
-  </qresource>
-</RCC>
-

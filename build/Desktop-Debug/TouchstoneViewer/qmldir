@@ -1,7 +1,0 @@
-module TouchstoneViewer
-typeinfo appTouchstoneViewer.qmltypes
-prefer :/TouchstoneViewer/
-Main 1.0 src/ui/Main.qml
-MenuBar 1.0 src/ui/MenuBar.qml
-Plot 1.0 src/ui/Plot.qml
-
