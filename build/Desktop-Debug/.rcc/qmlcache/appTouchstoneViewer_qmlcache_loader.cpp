@@ -12,7 +12,14 @@ namespace _0x5f_TouchstoneViewer_src_ui_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _0x5f_TouchstoneViewer_src_ui_MenuComponent_qml { 
+namespace _0x5f_TouchstoneViewer_src_ui_MenuBar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_TouchstoneViewer_src_ui_Plot_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -34,7 +41,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/TouchstoneViewer/src/ui/Main.qml"), &QmlCacheGeneratedCode::_0x5f_TouchstoneViewer_src_ui_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/TouchstoneViewer/src/ui/MenuComponent.qml"), &QmlCacheGeneratedCode::_0x5f_TouchstoneViewer_src_ui_MenuComponent_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/TouchstoneViewer/src/ui/MenuBar.qml"), &QmlCacheGeneratedCode::_0x5f_TouchstoneViewer_src_ui_MenuBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/TouchstoneViewer/src/ui/Plot.qml"), &QmlCacheGeneratedCode::_0x5f_TouchstoneViewer_src_ui_Plot_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

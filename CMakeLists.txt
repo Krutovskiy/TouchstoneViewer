@@ -15,13 +15,14 @@ qt_add_executable(appTouchstoneViewer
 qt_add_qml_module(appTouchstoneViewer
     URI TouchstoneViewer
     VERSION 1.0
-    QML_FILES
-        src/ui/Main.qml
-        QML_FILES src/ui/MenuComponent.qml
-        SOURCES
-        SOURCES src/app/controller.h src/app/controller.cpp
-        SOURCES src/app/dataprocessor.h src/app/dataprocessor.cpp
-        SOURCES src/app/state.h
+    QML_FILES src/ui/Main.qml
+    QML_FILES src/ui/MenuBar.qml
+    QML_FILES src/ui/Plot.qml
+    SOURCES src/ui/controller.h src/ui/controller.cpp
+    SOURCES src/app/TouchstoneFile.h src/app/TouchstoneFile.cpp
+    SOURCES src/app/TouchstoneData.h src/app/TouchstoneData.cpp
+    SOURCES src/app/TouchstoneData.cpp
+
 )
 
 
@@ -35,3 +36,21 @@ install(TARGETS appTouchstoneViewer
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+install(DIRECTORY src/ui/
+    DESTINATION ${CMAKE_INSTALL_DATADIR}/TouchstoneViewer/ui
+    FILES_MATCHING PATTERN "*.qml"
+)
+
+set(CPACK_PACKAGE_NAME "touchstone-viewer")
+set(CPACK_PACKAGE_VERSION ${PROJECT_VERSION})
+set(CPACK_PACKAGE_DESCRIPTION "Touchstone File Viewer Application")
+set(CPACK_PACKAGE_CONTACT "Leonid Krutovskiy <leonidkrutovskiy@yandex.ru>")
+set(CPACK_PACKAGE_VENDOR "Synecta")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Leonid Krutovskiy <leonidkrutovskiy@yandex.ru>")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6qml6, libqt6quick6, libqt6core6")
+set(CPACK_DEBIAN_PACKAGE_SECTION "science")
+set(CPACK_DEBIAN_FILE_NAME DEB-DEFAULT)
+set(CPACK_DEB_COMPONENT_INSTALL YES)
+
+include(CPack)

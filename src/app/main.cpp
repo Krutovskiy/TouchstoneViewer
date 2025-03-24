@@ -1,11 +1,12 @@
-#include "src/app/controller.h"
-#include "src/app/dataprocessor.h"
-#include <QGuiApplication>
 #include <QFontDatabase>
 #include <QGuiApplication>
+#include <QGuiApplication>
+#include <QPair>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QPair>
+
+#include "src/app/TouchstoneFile.h"
+#include "src/ui/controller.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,7 +15,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Controller>("TouchstoneViewer", 1, 0, "Controller");
 
 
-    Controller controller(new DataProcessor());
+    Controller controller(new TouchstoneFile());
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("controller", &controller);

@@ -2,6 +2,47 @@
     {
         "classes": [
             {
+                "className": "TouchstoneFile",
+                "object": true,
+                "qualifiedClassName": "TouchstoneFile",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "state",
+                                "type": "const TouchstoneData*"
+                            }
+                        ],
+                        "name": "processingFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "const QString*"
+                            }
+                        ],
+                        "name": "error",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "TouchstoneFile.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "Controller",
                 "object": true,
                 "properties": [
@@ -68,22 +109,11 @@
                         "access": "public",
                         "arguments": [
                             {
-                                "name": "status",
+                                "name": "error",
                                 "type": "QString"
                             }
                         ],
-                        "name": "statusChanged",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "title",
-                                "type": "QString"
-                            }
-                        ],
-                        "name": "titleChanged",
+                        "name": "error",
                         "returnType": "void"
                     },
                     {
@@ -114,47 +144,6 @@
             }
         ],
         "inputFile": "controller.h",
-        "outputRevision": 68
-    },
-    {
-        "classes": [
-            {
-                "className": "DataProcessor",
-                "object": true,
-                "qualifiedClassName": "DataProcessor",
-                "signals": [
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "state",
-                                "type": "const State*"
-                            }
-                        ],
-                        "name": "processingFinished",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "error",
-                                "type": "const QString*"
-                            }
-                        ],
-                        "name": "error",
-                        "returnType": "void"
-                    }
-                ],
-                "superClasses": [
-                    {
-                        "access": "public",
-                        "name": "QObject"
-                    }
-                ]
-            }
-        ],
-        "inputFile": "dataprocessor.h",
         "outputRevision": 68
     }
 ]

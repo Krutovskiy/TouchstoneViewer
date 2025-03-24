@@ -1,7 +1,8 @@
+import Qt.labs.platform
 import QtQuick
-import QtQuick.Layouts
 import QtQuick.Controls
 import QtQuick.Dialogs
+import QtQuick.Layouts
 import TouchstoneViewer 1.0
 
 ToolBar {
@@ -34,6 +35,9 @@ ToolBar {
         target: controller
         function onStateChanged(){
             menuTitle.text = controller.title
+        }
+        function onError(error) {
+            menuTitle.text = error
         }
     }
 

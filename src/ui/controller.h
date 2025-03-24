@@ -3,12 +3,12 @@
 
 
 #include <QObject>
-#include <QVector>
-#include <QPointF>
 #include <QPair>
+#include <QPointF>
+#include <QVector>
 
-class DataProcessor;
-class State;
+class TouchstoneFile;
+class TouchstoneData;
 
 class Controller : public QObject
 {
@@ -19,25 +19,23 @@ class Controller : public QObject
     Q_PROPERTY(QPointF minMaxLogMag READ minMaxLogMag NOTIFY stateChanged)
 
 public:
-    explicit Controller(DataProcessor * dataProcessor, QObject *parent = nullptr);
-    void updateState(const State * state);
+    explicit Controller(TouchstoneFile * dataProcessor, QObject *parent = nullptr);
+    void updateState(const TouchstoneData * state);
 
-    const QString & title() const;
-    const QVector<QPointF> & points() const;
-    const QPointF & minMaxFreq() const;
-    const QPointF & minMaxLogMag() const;
+    const QString & title() const { return m_title; }
+    const QVector<QPointF> & points() const { return m_points; }
+    const QPointF & minMaxFreq() const { return m_minMaxFreq; }
+    const QPointF & minMaxLogMag() const { return m_minMaxLogMag; }
 
 public slots:
     void openFile(const QString & fileUrl);
 
-
 signals:
-    void statusChanged(const QString & status);
-    void titleChanged(const QString & title);
+    void error(const QString & error);
     void stateChanged();
 
 private:
-    DataProcessor * dataProcessor;
+    TouchstoneFile * m_fileReader;
     QString m_title;
     QVector<QPointF> m_points;
     QPointF m_minMaxFreq;

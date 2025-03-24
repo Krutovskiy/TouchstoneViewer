@@ -68,8 +68,9 @@ include CMakeFiles/appTouchstoneViewer_qmllint.dir/progress.make
 
 CMakeFiles/appTouchstoneViewer_qmllint: /usr/lib/qt6/bin/qmllint
 CMakeFiles/appTouchstoneViewer_qmllint: /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml
-CMakeFiles/appTouchstoneViewer_qmllint: /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
-	cd /home/leon/Projects/TouchstoneViewer && /usr/lib/qt6/bin/qmllint --bare -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
+CMakeFiles/appTouchstoneViewer_qmllint: /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+CMakeFiles/appTouchstoneViewer_qmllint: /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
+	cd /home/leon/Projects/TouchstoneViewer && /usr/lib/qt6/bin/qmllint --bare -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
 
 appTouchstoneViewer_qmllint: CMakeFiles/appTouchstoneViewer_qmllint
 appTouchstoneViewer_qmllint: CMakeFiles/appTouchstoneViewer_qmllint.dir/build.make

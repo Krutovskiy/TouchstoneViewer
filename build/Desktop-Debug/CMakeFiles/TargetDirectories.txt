@@ -9,6 +9,8 @@
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/all_qmllint_json.dir
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/appTouchstoneViewer_tooling.dir
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/appTouchstoneViewer_qmlimportscan.dir
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/package.dir
+/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/package_source.dir
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/edit_cache.dir
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/list_install_components.dir

@@ -120,33 +120,44 @@ TouchstoneViewer/appTouchstoneViewer.qmltypes: apptouchstoneviewer_qmltyperegist
 	/usr/bin/cmake -E make_directory /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui
 	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /TouchstoneViewer/src/ui/Main.qml -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/qmldir --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc -o /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml
 
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: .rcc/qmake_TouchstoneViewer.qrc
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: .rcc/appTouchstoneViewer_raw_qml_0.qrc
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: TouchstoneViewer/appTouchstoneViewer.qmltypes
-.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp: TouchstoneViewer/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp"
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: .rcc/qmake_TouchstoneViewer.qrc
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: .rcc/appTouchstoneViewer_raw_qml_0.qrc
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: TouchstoneViewer/appTouchstoneViewer.qmltypes
+.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp: TouchstoneViewer/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp"
 	/usr/bin/cmake -E make_directory /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui
-	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /TouchstoneViewer/src/ui/MenuComponent.qml -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/qmldir --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc -o /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /TouchstoneViewer/src/ui/MenuBar.qml -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/qmldir --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc -o /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: .rcc/qmake_TouchstoneViewer.qrc
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: .rcc/appTouchstoneViewer_raw_qml_0.qrc
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: TouchstoneViewer/appTouchstoneViewer.qmltypes
+.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp: TouchstoneViewer/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp"
+	/usr/bin/cmake -E make_directory /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /TouchstoneViewer/src/ui/Plot.qml -I /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/qmldir --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmake_TouchstoneViewer.qrc --resource /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc -o /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
 
 .rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml
-.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
+.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
 .rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: .rcc/appTouchstoneViewer_raw_qml_0.qrc
 .rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appTouchstoneViewer_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running rcc for resource appTouchstoneViewer_raw_qml_0"
 	/usr/lib/qt6/libexec/rcc --output /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp --name appTouchstoneViewer_raw_qml_0 /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/appTouchstoneViewer_raw_qml_0.qrc
 
 appTouchstoneViewer_autogen/timestamp: /usr/lib/qt6/libexec/moc
 appTouchstoneViewer_autogen/timestamp: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target appTouchstoneViewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Automatic MOC and UIC for target appTouchstoneViewer"
 	/usr/bin/cmake -E cmake_autogen /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles/appTouchstoneViewer_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/appTouchstoneViewer_autogen/timestamp
 
 CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o: appTouchstoneViewer_autogen/mocs_compilation.cpp
 CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/appTouchstoneViewer_autogen/mocs_compilation.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.cpp.i: cmake_force
@@ -160,7 +171,7 @@ CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_autogen/mocs_compilation.
 CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: /home/leon/Projects/TouchstoneViewer/src/app/main.cpp
 CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/app/main.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.i: cmake_force
@@ -174,7 +185,7 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.s: cmake_force
 CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o: apptouchstoneviewer_qmltyperegistrations.cpp
 CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/apptouchstoneviewer_qmltyperegistrations.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.i: cmake_force
@@ -188,7 +199,7 @@ CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o: .rcc/qrc_qmake_TouchstoneViewer.cpp
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.i: cmake_force
@@ -199,38 +210,52 @@ CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_Touchstone
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.s
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
-CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o: /home/leon/Projects/TouchstoneViewer/src/app/controller.cpp
-CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/app/controller.cpp
+CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
+CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o: /home/leon/Projects/TouchstoneViewer/src/ui/controller.cpp
+CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/ui/controller.cpp
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/src/app/controller.cpp > CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.i
+CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/src/ui/controller.cpp > CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.i
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/src/app/controller.cpp -o CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.s
+CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/src/ui/controller.cpp -o CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.s
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
-CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o: /home/leon/Projects/TouchstoneViewer/src/app/dataprocessor.cpp
-CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/app/dataprocessor.cpp
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o: /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneFile.cpp
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneFile.cpp
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/src/app/dataprocessor.cpp > CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.i
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneFile.cpp > CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.i
 
-CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/src/app/dataprocessor.cpp -o CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.s
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneFile.cpp -o CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.s
+
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o: /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneData.cpp
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o -c /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneData.cpp
+
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneData.cpp > CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.i
+
+CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneData.cpp -o CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.s
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o: .rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.i: cmake_force
@@ -244,7 +269,7 @@ CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchsto
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o: .rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.i: cmake_force
@@ -255,24 +280,38 @@ CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchsto
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.s
 
-CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
-CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o: .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp
-CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o: .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp
 
-CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp > CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.i
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp > CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.i
 
-CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.s
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.s
+
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o: .rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp
+
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp > CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.i
+
+CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.s
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o: CMakeFiles/appTouchstoneViewer.dir/flags.make
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o: .rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o: CMakeFiles/appTouchstoneViewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o -MF CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o.d -o CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o -c /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp
 
 CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.i: cmake_force
@@ -289,11 +328,13 @@ appTouchstoneViewer_OBJECTS = \
 "CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o" \
 "CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o" \
 "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o" \
-"CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o" \
-"CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o" \
+"CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o" \
+"CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o" \
+"CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o" \
 "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o" \
 "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o" \
-"CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o" \
+"CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o" \
+"CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o" \
 "CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o"
 
 # External object files for target appTouchstoneViewer
@@ -303,11 +344,13 @@ appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/appTouchstoneViewer_auto
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/apptouchstoneviewer_qmltyperegistrations.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_qmake_TouchstoneViewer.cpp.o
-appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/app/controller.cpp.o
-appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/app/dataprocessor.cpp.o
+appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/ui/controller.cpp.o
+appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneFile.cpp.o
+appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/src/app/TouchstoneData.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp.o
-appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp.o
+appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp.o
+appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build/Desktop-Debug/.rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp.o
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/build.make
 appTouchstoneViewer: /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.4.2
@@ -321,7 +364,7 @@ appTouchstoneViewer: /usr/lib/x86_64-linux-gnu/libGLX.so
 appTouchstoneViewer: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 appTouchstoneViewer: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 appTouchstoneViewer: CMakeFiles/appTouchstoneViewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable appTouchstoneViewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable appTouchstoneViewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appTouchstoneViewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -334,7 +377,8 @@ CMakeFiles/appTouchstoneViewer.dir/clean:
 
 CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qmlcache/appTouchstoneViewer_qmlcache_loader.cpp
 CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qmlcache/appTouchstoneViewer_src/ui/Main_qml.cpp
-CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuComponent_qml.cpp
+CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qmlcache/appTouchstoneViewer_src/ui/MenuBar_qml.cpp
+CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qmlcache/appTouchstoneViewer_src/ui/Plot_qml.cpp
 CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qrc_appTouchstoneViewer_raw_qml_0.cpp
 CMakeFiles/appTouchstoneViewer.dir/depend: .rcc/qrc_qmake_TouchstoneViewer.cpp
 CMakeFiles/appTouchstoneViewer.dir/depend: TouchstoneViewer/appTouchstoneViewer.qmltypes

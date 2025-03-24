@@ -1,29 +1,28 @@
 #ifndef DATAPROCESSOR_H
 #define DATAPROCESSOR_H
 
-#include <QObject>
 #include <QFutureWatcher>
+#include <QObject>
 #include <QtConcurrent>
-#include "state.h"
+
+#include "TouchstoneData.h"
 
 
-using Result = std::variant<State, QString>;
+using Result = TouchstoneData::Result;
 
-class DataProcessor : public QObject
+class TouchstoneFile : public QObject
 {
     Q_OBJECT
 public:
-    explicit DataProcessor(QObject *parent = nullptr);
+    explicit TouchstoneFile(QObject *parent = nullptr);
     void processFile(const QString &fileUrl);
 
-
 signals:
-    void processingFinished(const State * state);
+    void processingFinished(const TouchstoneData * state);
     void error(const QString * error);
 
 private:
     static Result readAndProcessFile(const QString &filePath);
-    void updateState(const Result & result);
 
 private:
     QFutureWatcher<Result> m_watcher;

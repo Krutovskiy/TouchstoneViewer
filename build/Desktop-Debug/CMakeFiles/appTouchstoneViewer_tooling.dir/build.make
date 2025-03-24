@@ -70,12 +70,17 @@ TouchstoneViewer/src/ui/Main.qml: /home/leon/Projects/TouchstoneViewer/src/ui/Ma
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TouchstoneViewer/src/ui/Main.qml"
 	cd /home/leon/Projects/TouchstoneViewer && /usr/bin/cmake -E copy /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/src/ui/Main.qml
 
-TouchstoneViewer/src/ui/MenuComponent.qml: /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TouchstoneViewer/src/ui/MenuComponent.qml"
-	cd /home/leon/Projects/TouchstoneViewer && /usr/bin/cmake -E copy /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/src/ui/MenuComponent.qml
+TouchstoneViewer/src/ui/MenuBar.qml: /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TouchstoneViewer/src/ui/MenuBar.qml"
+	cd /home/leon/Projects/TouchstoneViewer && /usr/bin/cmake -E copy /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/src/ui/MenuBar.qml
+
+TouchstoneViewer/src/ui/Plot.qml: /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating TouchstoneViewer/src/ui/Plot.qml"
+	cd /home/leon/Projects/TouchstoneViewer && /usr/bin/cmake -E copy /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml /home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/TouchstoneViewer/src/ui/Plot.qml
 
 appTouchstoneViewer_tooling: TouchstoneViewer/src/ui/Main.qml
-appTouchstoneViewer_tooling: TouchstoneViewer/src/ui/MenuComponent.qml
+appTouchstoneViewer_tooling: TouchstoneViewer/src/ui/MenuBar.qml
+appTouchstoneViewer_tooling: TouchstoneViewer/src/ui/Plot.qml
 appTouchstoneViewer_tooling: CMakeFiles/appTouchstoneViewer_tooling.dir/build.make
 .PHONY : appTouchstoneViewer_tooling
 

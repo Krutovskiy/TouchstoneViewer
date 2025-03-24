@@ -1,10 +1,8 @@
 CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /home/leon/Projects/TouchstoneViewer/src/app/main.cpp \
-  /home/leon/Projects/TouchstoneViewer/src/app/controller.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFontDatabase \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/type_traits \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -157,6 +155,11 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/tr1/riemann_zeta.tcc \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
@@ -298,26 +301,25 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/numeric \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_numeric.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/list \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_list.h \
@@ -326,18 +328,81 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_map.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/chrono \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/chrono.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ratio \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ctime \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
+  /usr/lib/llvm-18/lib/clang/18/include/limits.h /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QPair \
-  /home/leon/Projects/TouchstoneViewer/src/app/dataprocessor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlApplicationEngine \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlapplicationengine.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlengine.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsengine.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsvalue.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqml-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsmanagedvalue.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsprimitivevalue.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsnumbercoercion.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmldebug.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqml.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlparserstatus.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmllist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlpropertyvaluesource.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qversionnumber.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetaobject.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlregistration.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration/qqmlintegration.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlerror.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlabstracturlinterceptor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlContext \
+  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlcontext.h \
+  /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneFile.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QFutureWatcher \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuturewatcher.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuture.h \
@@ -345,9 +410,6 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmutex.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtsan_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qresultstore.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuture_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qthreadpool.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qthread.h \
@@ -362,10 +424,8 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_thread.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrunnable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qexception.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qpromise.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/QtConcurrent \
   /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/QtConcurrentDepends \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
@@ -376,32 +436,12 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/q23functional.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractanimation.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstracteventdispatcher.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter_base.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
-  /usr/lib/llvm-18/lib/clang/18/include/limits.h /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractnativeeventfilter.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanimationgroup.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qapplicationstatic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMutex \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qassociativeiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbitarray.h \
@@ -410,13 +450,11 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraymatcher.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcache.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborarray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborvalue.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborcommon.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/quuid.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcbormap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstream.h \
@@ -484,13 +522,10 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlibrary.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlibraryinfo.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qversionnumber.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlockfile.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qloggingcategory.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmessageauthenticationcode.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetaobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmimedata.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmimedatabase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmimetype.h \
@@ -515,7 +550,6 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/random.tcc \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qreadwritelock.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qresource.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsavefile.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedvaluerollback.h \
@@ -649,6 +683,7 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qwaitcondition.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDeadlineTimer \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qwineventnotifier.h \
@@ -673,42 +708,7 @@ CMakeFiles/appTouchstoneViewer.dir/src/app/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtconcurrentrun.h \
   /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtconcurrenttask.h \
   /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtconcurrentversion.h \
-  /home/leon/Projects/TouchstoneViewer/src/app/state.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFontDatabase \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlApplicationEngine \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlapplicationengine.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlengine.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsengine.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsvalue.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqml-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsmanagedvalue.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsprimitivevalue.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsnumbercoercion.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmldebug.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqml.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlparserstatus.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmllist.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlpropertyvaluesource.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlregistration.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration/qqmlintegration.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlerror.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlabstracturlinterceptor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlContext \
-  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlcontext.h
+  /home/leon/Projects/TouchstoneViewer/src/app/TouchstoneData.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
+  /home/leon/Projects/TouchstoneViewer/src/ui/controller.h

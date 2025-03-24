@@ -1,7 +1,8 @@
 <RCC>
   <qresource prefix="/TouchstoneViewer/">
     <file alias="src/ui/Main.qml">/home/leon/Projects/TouchstoneViewer/src/ui/Main.qml</file>
-    <file alias="src/ui/MenuComponent.qml">/home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml</file>
+    <file alias="src/ui/MenuBar.qml">/home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml</file>
+    <file alias="src/ui/Plot.qml">/home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml</file>
   </qresource>
 </RCC>
 

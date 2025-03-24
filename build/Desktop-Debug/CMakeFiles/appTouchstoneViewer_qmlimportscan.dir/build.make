@@ -72,7 +72,8 @@ CMakeFiles/appTouchstoneViewer_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports
 .qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: .rcc/qmake_TouchstoneViewer.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: .rcc/appTouchstoneViewer_raw_qml_0.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: /home/leon/Projects/TouchstoneViewer/src/ui/Main.qml
-.qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: /home/leon/Projects/TouchstoneViewer/src/ui/MenuComponent.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: /home/leon/Projects/TouchstoneViewer/src/ui/MenuBar.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.cmake: /home/leon/Projects/TouchstoneViewer/src/ui/Plot.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appTouchstoneViewer"
 	cd /home/leon/Projects/TouchstoneViewer && /usr/lib/qt6/libexec/qmlimportscanner @/home/leon/Projects/TouchstoneViewer/build/Desktop-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appTouchstoneViewer.rsp
 
